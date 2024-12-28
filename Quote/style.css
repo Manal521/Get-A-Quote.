@@ -1,0 +1,31 @@
+    body {
+        background: linear-gradient(90deg, rgb(253, 191, 191) 0%, rgb(254, 244, 255) 50%, rgb(253, 191, 191) 100%);
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 28px;
+        overflow: hidden;
+        color: rgb(129, 129, 129);
+    }
+    
+    .container {
+        margin: 180px auto;
+        width: 500px;
+        height: 300px;
+        border-radius: 20px;
+        border-color: aliceblue;
+    }
+    
+    .btn {
+        border-radius: 5px;
+        padding: 10px;
+        background-color: white;
+        box-shadow: 5px 5px 10px grey;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: medium;
+        border: none;
+    }
+    
+    .btn:hover {
+        font-size: large;
+        cursor: pointer;
+    }
